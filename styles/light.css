@@ -10,3 +10,11 @@
     чем стили в медиазапросе предпочтений пользователя
   */
 }
+
+@media (prefers-color-scheme: light){
+  :root {
+    --bg-image: url('../images/cover-image-light.png');
+    --bg-color: rgba(255, 241, 247, 1);
+    --accent-color: rgba(255, 141, 203, 1);
+  }
+}

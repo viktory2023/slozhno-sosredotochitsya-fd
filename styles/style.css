@@ -2,4 +2,209 @@
 
 .page {
   /* сохраните в разметке и стилях класс page у тега body. Он удобен, чтобы составлять селекторы для разных цветовых тем. */
+  background-color: var(--bg-color);
+  background-image: var(--bg-image);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  object-fit: cover;
+}
+
+.light-bulb {
+  display: flex;
+  justify-content: right;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.decorated-zone::before,
+.decorated-zone::after {
+  content: "";
+  position: absolute;
+}
+
+.decorated-zone::before {
+  margin-block-start: 10px;
+  top: 0;
+  right: 10px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  width: 25px;
+  height: 25px;
+}
+
+.decorated-zone::after {
+  bottom: 0;
+  left: 10px;
+  border-bottom: 1px solid var(--accent-color);
+  border-left: 1px solid var(--accent-color);
+  width: 25px;
+  height: 25px;
+  margin-block-end: 10px;
+}
+
+.light-bulb.text {
+  margin-block-start: 10px;
+  margin-right: 19px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: var(--accent-color);
+  line-height: 25px;
+  position: absolute;
+}
+
+.light-bulb p::after {
+  content: "";
+  display: inline-flex;
+  width: 9px;
+  height: 9px;
+  background-color: var(--accent-color);
+  border-radius: 70%;
+  margin-left: 10px;
+  box-shadow: 4px var(--accent-color);
+  position: relative;
+  margin-block-start: 8px;
+}
+
+
+.header__theme-menu-button {
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  color: var(--accent-color);
+  font-size: 18px;
+  font-weight: normal;
+  background-color: transparent;
+  border: transparent;
+  text-transform: lowercase;
+  padding: 1.5px 13px 1.5px 13px;
+}
+
+.header__theme-menu-button .header__theme-menu-button_active:active {
+  border: none;
+  border: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button :focus {
+  border: none;
+  border-bottom: 1px solid var(--accent-color);
+}
+
+.header__theme-menu-button :hover {
+  border: none;
+  border: 1px solid var(--border-hover-color);
+}
+
+.title {
+  color: rgba(219, 0, 255, 1);
+  text-shadow: 4px 4px 0 var(--accent-color);
+}
+
+.header_subtitles {
+  background-color: var(--accent-color);
+  margin: 55px 10px 66px 10px;
+}
+
+.header_subtitles-text {
+  color: black;
+  font-weight: bold;
+  line-height: 23.4px;
+}
+
+.main__section-title {
+  color: var(--accent-color);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.main__section-list-title {
+  color: var(--h3-section-color);
+  background-color: var(--accent-color);
+  line-height: 23.4px;
+}
+
+.main__section-list.text {
+  color: var(--main-section-text-color);
+  line-height: 23.4px;
+}
+
+.main__section-list.link {
+  text-decoration: none;
+  text-shadow: 2px 2px 0 var(--accent-color);
+}
+
+.main__section-list-title.subtitles {
+  font-size: 18px;
+  font-weight: normal;
+}
+
+
+@media (max-width: 376px) and (max-height: 6770px) {
+
+  .header_text {
+    margin-block-start: 65px;
+    margin-block-end: 66px;
+  }
+
+  .header__theme-menu {
+    display: flex;
+    justify-content: right;
+    margin-block-start: 73px;
+    margin-right: 10px;
+  }
+
+  .header__theme-menu-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .title {
+    font-size: 116px;
+    font-weight: bold;
+    line-height: 83%;
+    margin-left: 10px;
+  }
+
+  .title.footer{
+    margin-block-start: 286px;
+    margin-block-end: 285px;
+  }
+
+  .header_subtitles {
+    margin-block-start: 55px;
+    font-size: 18px;
+    margin-block-end: 66px;
+  }
+
+  .main__section:nth-child(1) {
+    padding-block-start: 40px;
+  }
+
+  .main__section {
+    padding: 0 10px;
+    padding-block-start: 50px;
+  }
+
+  .main__section-list-title {
+    margin-block-start: 20px;
+  }
+
+  .main__section-list.text {
+    margin-block-start: 10px;
+    font-size: 18px;
+  }
+
+  .main__section-image:last-child {
+    margin-block-end: 40px;
+  }
+
+  .main__section-image {
+    display: flex;
+    flex-direction: column;
+    margin-block-start: 10px;
+    max-width: 355px;
+    gap: 10px;
+  }
 }
