@@ -171,7 +171,7 @@
 .main__section-list.text {
   margin-block-start: 10px;
   font-size: 18px;
-  color: var(--main-link-text-color);
+  color: var(--main-section-text-color);
   line-height: 23.4px;
 }
 
@@ -181,13 +181,13 @@
 }
 
 .main__section-list.link:hover {
-  text-decoration: underline var(--main-link-text-color);
+  text-decoration: underline var(--main-section-text-color);
 }
 
 .main__section-list.link:focus {
   text-decoration: none;
   border: none;
-  border: 3px 4px var(--main-link-text-color);
+  border: 3px 4px var(--main-section-text-color);
 }
 
 .main__section-list-title.subtitles {
@@ -402,8 +402,14 @@
     margin-block-start: 60px;
   }
 
+  .main__section:nth-child(1) {
+    gap:12px;
+  }
+
+
   .main__section:nth-child(3) {
     margin-block-start: 60px;
+    gap:12px;
   }
 
   .main__section:nth-child(2) {
