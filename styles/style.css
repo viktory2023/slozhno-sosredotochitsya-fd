@@ -44,6 +44,7 @@
   height: 25px;
 }
 
+
 .light-bulb.text {
   margin-block-start: 10px;
   margin-right: 19px;
@@ -94,7 +95,7 @@
   padding: 1.5px 13px 1.5px 13px;
 }
 
-.header__theme-menu-button .header__theme-menu-button_active:active {
+.header__theme-menu-button:active {
   border: none;
   border: 1px solid var(--menu-text-color);
 }
@@ -138,9 +139,6 @@
   margin-block-end: 66px;
 
 }
-
-
-
 
 .header_subtitles-text {
   color: black;
@@ -226,11 +224,6 @@
   height: 355px;
 }
 
-.tape,
-.street {
-  height: 237px;
-}
-
 .main__section-content {
   margin-block-start: 20px;
 }
@@ -285,12 +278,12 @@
     align-items: start;
   }
 
-  .main__section-list-title:nth-child(1) {
-    margin: 0;
+  .main__section-list.text {
+    margin-block-end: 20px;
   }
 
-  .main__section:nth-child(2) {
-    margin-block-start: 80px;
+  .main__section-list-title:nth-child(1) {
+    margin: 0;
   }
 
   .main__section-title {
@@ -314,22 +307,27 @@
     margin: 0;
   }
 
-  .main__section:last-child {
-    margin-block-start: 80px;
+  .main__section-list-title_img {
+    margin-block-end: 20px;
   }
 
   .main__section-image {
+    padding: 0;
     display: grid;
     grid-column: 1 / 4;
     gap: 20px;
     grid-template-columns: repeat(3, 1fr);
     max-width: 768px;
-    width: 100%;
   }
 
   .main__section-image img {
+    width: 100%;
     height: 100%;
     object-fit: cover;
+  }
+
+  .main__section-image:last-child {
+    margin: 0;
   }
 
   .sunset {
@@ -357,9 +355,13 @@
     grid-row: 3/4;
   }
 
+  .footer {
+    margin-block-start: 60px;
+  }
+
   .title.footer {
     font-size: 120px;
-    padding: 183px 204px;
+    margin: 523px 204px 462px 204px;
   }
 }
 
@@ -396,6 +398,14 @@
     overflow: hidden;
   }
 
+  .main__section:last-child {
+    margin-block-start: 60px;
+  }
+
+  .main__section:nth-child(3) {
+    margin-block-start: 60px;
+  }
+
   .main__section:nth-child(2) {
     display: flex;
     flex-direction: column;
@@ -409,15 +419,16 @@
   }
 
   .main__section-content {
-  margin-block-start: 10px;
-}
+    margin-block-start: 10px;
+  }
 
 
   .main__section-image {
     max-width: 984px;
   }
-  .title.footer{
+
+  .title.footer {
     font-size: 157px;
-    padding: 30px 276px;
+    margin: 379px 276px 319px 276px;
   }
 }
