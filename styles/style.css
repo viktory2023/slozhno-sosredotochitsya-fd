@@ -121,7 +121,7 @@
 
 .main__section-list.link:focus-visible {
   outline: 0;
-  outline: 1px solid var(--border-focus-link);
+  border: 1px solid var(--border-focus-link);
 }
 
 .header_text {
