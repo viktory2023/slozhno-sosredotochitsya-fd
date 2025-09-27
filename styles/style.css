@@ -106,26 +106,22 @@
 .header__theme-menu-button:active,
 .header__theme-menu-button:hover {
   outline: 0;
-  border: none;
-  border: 1px solid var(--border-hover);
+  outline: 1px solid var(--border-hover);
 }
 
 .main__section-list.link:hover {
   outline: 0;
-  border: none;
   border-bottom: 1px solid var(--border-hover-link);
 }
 
 .header__theme-menu-button:focus-visible {
   outline: 0;
-  border: 0;
   border-bottom: 1px solid var(--border-focus);
 }
 
 .main__section-list.link:focus-visible {
   outline: 0;
-  border: 0;
-  border: 1px solid var(--border-focus-link);
+  outline: 1px solid var(--border-focus-link);
 }
 
 .header_text {
