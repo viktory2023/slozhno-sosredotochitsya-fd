@@ -9,10 +9,15 @@
   --bg-color: rgba(255, 241, 247, 1);
   --accent-color: rgba(255, 141, 203, 1);
   --title-color: rgba(255, 194, 230, 1);
+  --border-hover: rgba(50, 49, 45, 0.4);
+  --border-focus: rgba(53, 52, 48, 1);
+  --border-hover-link: rgba(53, 52, 48, 1);
+  --border-focus-link: rgba(53, 52, 48, 1);
   --menu-text-color: rgba(53, 52, 48, 1);
   --h3-section-color: rgba(0, 0, 40, 1);
   --main-section-text-color: rgba(53, 52, 48, 1);
   --link-shadow-color: rgba(255, 141, 203, 1);
+  --font-family: 'IBM Plex mono';
 }
 
 @media (prefers-color-scheme: light) {
@@ -21,9 +26,19 @@
     --bg-color: rgba(255, 241, 247, 1);
     --title-color: rgba(255, 194, 230, 1);
     --accent-color: rgba(255, 141, 203, 1);
+    --border-hover: rgba(50, 49, 45, 0.4);
+    --border-focus: rgba(53, 52, 48, 1);
+    --border-focus-link: rgba(53, 52, 48, 1);
     --menu-text-color: rgba(53, 52, 48, 1);
     --h3-section-color: rgba(0, 0, 40, 1);
     --main-section-text-color: rgba(53, 52, 48, 1);
     --link-shadow-color: rgba(255, 141, 203, 1);
+    --font-family: 'IBM Plex mono';
   }
+}
+
+.theme-light .decorated-zone::after,
+.theme-light .decorated-zone::before,
+.theme-light .light-bulb {
+  display: none;
 }

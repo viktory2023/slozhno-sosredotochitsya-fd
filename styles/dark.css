@@ -9,21 +9,13 @@
   --bg-color: rgba(0, 0, 40, 1);
   --title-color: rgba(219, 0, 255, 1);
   --accent-color: rgba(255, 0, 112, 1);
+  --border-hover: rgba(255, 0, 112, 0.4);
+  --border-focus: rgba(255, 0, 112, 1);
+  --border-hover-link: rgba(241, 178, 206, 1);
+  --border-focus-link: rgba(241, 178, 206, 1);
   --menu-text-color: rgba(255, 0, 112, 1);
   --h3-section-color: rgba(0, 0, 40, 1);
   --main-section-text-color: rgba(241, 178, 206, 1);
   --link-shadow-color: rgba(255, 0, 112, 1);
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --bg-image: url('../images/cover-image.png');
-    --title-color: rgba(219, 0, 255, 1);
-    --bg-color: rgba(0, 0, 40, 1);
-    --accent-color: rgba(255, 0, 112, 1);
-    --menu-text-color: rgba(255, 0, 112, 1);
-    --h3-section-color: rgba(0, 0, 40, 1);
-    --main-section-text-color: rgba(241, 178, 206, 1);
-    --link-shadow-color: rgba(255, 0, 112, 1);
-  }
+  --font-family: 'IBM Plex mono';
 }
