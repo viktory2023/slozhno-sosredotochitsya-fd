@@ -15,6 +15,7 @@
 .header,
 .footer {
   position: relative;
+  height: 100vh;
 }
 
 .decorated-zone::before,
@@ -125,7 +126,6 @@
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: bold;
   line-height: 83%;
-  letter-spacing: 0%;
   margin-left: 10px;
 }
 
@@ -152,7 +152,7 @@
 }
 
 .main__section-title {
-  color: var(--accent-color);
+  color: var(--section-title-color);
   font-weight: bold;
   font-size: 18px;
 }
@@ -199,7 +199,6 @@
   flex-direction: column;
   gap: 10px;
   max-width: 355px;
-  gap: 10px;
   background-repeat: no-repeat;
 }
 

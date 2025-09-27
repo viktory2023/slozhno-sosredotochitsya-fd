@@ -14,7 +14,8 @@
   --border-hover-link: rgba(53, 52, 48, 1);
   --border-focus-link: rgba(53, 52, 48, 1);
   --menu-text-color: rgba(53, 52, 48, 1);
-  --h3-section-color: rgba(0, 0, 40, 1);
+  --section-title-color: rgba(53, 52, 48, 1);
+  --h3-section-color: rgba(53, 52, 48, 1);
   --main-section-text-color: rgba(53, 52, 48, 1);
   --link-shadow-color: rgba(255, 141, 203, 1);
   --font-family: 'IBM Plex mono';
@@ -30,7 +31,8 @@
     --border-focus: rgba(53, 52, 48, 1);
     --border-focus-link: rgba(53, 52, 48, 1);
     --menu-text-color: rgba(53, 52, 48, 1);
-    --h3-section-color: rgba(0, 0, 40, 1);
+    --section-title-color: rgba(53, 52, 48, 1);
+    --h3-section-color: rgba(53, 52, 48, 1);
     --main-section-text-color: rgba(53, 52, 48, 1);
     --link-shadow-color: rgba(255, 141, 203, 1);
     --font-family: 'IBM Plex mono';
