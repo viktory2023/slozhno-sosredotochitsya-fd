@@ -104,7 +104,7 @@
 
 .header__theme-menu-button.header__theme-menu-button_active,
 .header__theme-menu-button:active,
-.header__theme-menu-button:hover{
+.header__theme-menu-button:hover {
   outline: 0;
   border: none;
   border: 1px solid var(--border-hover);
