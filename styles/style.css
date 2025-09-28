@@ -103,14 +103,14 @@
 }
 
 .header__theme-menu-button.header__theme-menu-button_active,
-.header__theme-menu-button:active{
+.header__theme-menu-button:active {
   outline: 0;
-  outline: 1px solid var(--active-border-color);
+  outline: 1px solid var(--border-focus);
 }
 
-.header__theme-menu-button:hover{
+.header__theme-menu-button:hover {
   outline: 0;
-  outline: 1px solid var(--border-hover);
+  border: 1px solid var(--border-hover);
 }
 
 .main__section-list.link:hover {
