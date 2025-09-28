@@ -123,6 +123,7 @@
 }
 
 .main__section-list.link:focus-visible {
+  outline: 0;
   border: 1px solid var(--border-focus-link);
 }
 
