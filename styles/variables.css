@@ -2,7 +2,7 @@
   --bg-image: url('../images/cover-image-dark.png');
   --bg-color: rgba(0, 0, 40, 1);
   --title-color: rgba(219, 0, 255, 1);
-  --subtitle-color:rgba(0, 0, 40, 1);
+  --subtitle-color: rgba(0, 0, 40, 1);
   --accent-color: rgba(255, 0, 112, 1);
   --border-hover: rgba(255, 0, 112, 0.4);
   --border-focus: rgba(255, 0, 112, 1);
