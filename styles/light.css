@@ -8,6 +8,7 @@
   --bg-image: url('../images/cover-image-light.png');
   --bg-color: rgba(255, 241, 247, 1);
   --accent-color: rgba(255, 141, 203, 1);
+  --subtitle-color: rgba(0, 0, 40, 1);
   --title-color: rgba(255, 194, 230, 1);
   --border-hover: rgba(50, 49, 45, 0.4);
   --border-focus: rgba(53, 52, 48, 1);
@@ -26,6 +27,7 @@
     --bg-image: url('../images/cover-image-light.png');
     --bg-color: rgba(255, 241, 247, 1);
     --title-color: rgba(255, 194, 230, 1);
+    --subtitle-color: rgba(0, 0, 40, 1);
     --accent-color: rgba(255, 141, 203, 1);
     --border-hover: rgba(50, 49, 45, 0.4);
     --border-focus: rgba(53, 52, 48, 1);
