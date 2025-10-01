@@ -14,7 +14,6 @@
   --h3-section-color: rgba(53, 52, 48, 1);
   --main-section-text-color: rgba(53, 52, 48, 1);
   --link-shadow-color: rgba(255, 141, 203, 1);
-  --font-family: 'IBM Plex mono';
 }
 
 .theme-light .light-bulb {
@@ -38,14 +37,10 @@
     --h3-section-color: rgba(53, 52, 48, 1);
     --main-section-text-color: rgba(53, 52, 48, 1);
     --link-shadow-color: rgba(255, 141, 203, 1);
-    --font-family: 'IBM Plex mono';
   }
 
   .light-bulb {
     display: none;
   }
 
-  .theme-dark .light-bulb {
-    display: flex;
-  }
 }

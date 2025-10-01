@@ -16,6 +16,7 @@
 .footer {
   position: relative;
   height: 100vh;
+  min-height: 668px;
 }
 
 .header {
@@ -174,6 +175,7 @@
 
 .main__section-list-title {
   font-weight: bold;
+  font-size: 18px;
   margin-block-start: 20px;
   margin-block-end: 10px;
   color: var(--h3-section-color);
@@ -387,7 +389,17 @@
   }
 }
 
-@media (min-width: 768px) and (max-width:1023px) {
+@media (min-width: 769px) and (max-width:1023px) {
+
+  .header,
+  .footer {
+    min-height: 768px;
+  }
+
+  .header_subtitles {
+    margin-block-start: 62px;
+  }
+
   .main__section-image {
     max-width: 100%;
     margin: 0 auto;
@@ -398,6 +410,7 @@
     height: 100%;
     object-fit: cover;
   }
+
 }
 
 @media (min-width: 1024px) {
