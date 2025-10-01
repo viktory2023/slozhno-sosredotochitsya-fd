@@ -18,8 +18,8 @@
   height: 100vh;
 }
 
-.header{
-    display: grid;
+.header {
+  display: grid;
 }
 
 .decorated-zone::before,
