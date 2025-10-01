@@ -15,9 +15,12 @@
 .header,
 .footer {
   position: relative;
-  display: grid;
+  height: 100vh;
 }
 
+.header{
+    display: grid;
+}
 
 .decorated-zone::before,
 .decorated-zone::after {
@@ -399,14 +402,14 @@
 
 @media (min-width: 1024px) {
   .header__theme-menu {
-    margin-block-start: 20px;
-    margin-right: 397px;
+    margin: 20px auto 0 auto;
   }
 
   .header__theme-menu-list {
     margin: 0;
     flex-direction: row;
     align-items: center;
+    justify-content: center;
   }
 
   .header_text {
