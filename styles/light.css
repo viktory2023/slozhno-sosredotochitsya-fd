@@ -31,12 +31,13 @@
   :root {
     --bg-image: url('../images/cover-image-light.png');
     --bg-color: rgba(255, 241, 247, 1);
-    --title-color: rgba(255, 194, 230, 1);
-    --subtitle-color: rgba(53, 52, 48, 1);
     --accent-color: rgba(255, 141, 203, 1);
+    --subtitle-color: rgba(53, 52, 48, 1);
+    --title-color: rgba(255, 194, 230, 1);
     --decorated-zone-color: rgba(53, 52, 48, 1);
     --border-hover: rgba(50, 49, 45, 0.4);
     --border-focus: rgba(53, 52, 48, 1);
+    --border-hover-link: rgba(53, 52, 48, 1);
     --border-focus-link: rgba(53, 52, 48, 1);
     --menu-text-color: rgba(53, 52, 48, 1);
     --section-title-color: rgba(53, 52, 48, 1);
