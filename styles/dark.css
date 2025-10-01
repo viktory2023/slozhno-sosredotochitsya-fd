@@ -23,6 +23,6 @@
   --font-family: 'IBM Plex mono';
 }
 
-.theme-light .light-bulb {
+.theme-dark .light-bulb {
   display: flex;
 }
